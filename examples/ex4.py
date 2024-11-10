@@ -1,4 +1,3 @@
-
 """
 Лямбда функции
 """
@@ -8,5 +7,3 @@ def book_list(books, func):
 books = ['System Design','Python и DevOps','Git. Практическое руководство']
 
 book_list(books, lambda book: book.upper() + ' - не прочитано')
-
-
